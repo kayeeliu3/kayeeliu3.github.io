@@ -21,25 +21,17 @@
     />
 
     <link rel="stylesheet" href="basic.css" />
-    <title>in progress!</title>
+    <title>the about cornershop</title>
   </head>
   <body id="bodycrt" class="crt">
     <!-- barba.js wrappers https://barba.js.org/docs/getstarted/basic-transition/ -->
+    <div data-barba="wrapper">
+      <div data-barba="container" data-barba-namespace="page-a">
         <!-- body begin! -->
         <div class="position-absolute top-50 start-50 translate-middle">
           <span class="badge text-bg-dark text-center text-wrap"
             ><h5 class="mt-1 ms-1">
-              in progress. <br />
-              click
-              <button
-                id="crttoggle"
-                type="button"
-                class="btn btn-secondary btn-sm"
-              >
-                here
-              </button>
-              to toggle scanline flicker. note that this is best viewed on a
-              laptop or PC. <br /><a href="about.html">other page</a>
+              wow, you reached here! <a href="index.html">home page</a>
             </h5></span
           >
         </div>
@@ -52,6 +44,31 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <!-- unpkg -->
+    <script src="https://unpkg.com/@barba/core"></script>
+    <!-- jsdelivr -->
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+
+    <!-- page transition -->
+    <script>
+      barba.init({
+        transitions: [
+          {
+            name: "opacity-transition",
+            leave(data) {
+              return gsap.to(data.current.container, {
+                opacity: 0,
+              });
+            },
+            enter(data) {
+              return gsap.from(data.next.container, {
+                opacity: 0,
+              });
+            },
+          },
+        ],
+      });
+    </script>
     <script src="basic.js"></script>
   </body>
 </html>
