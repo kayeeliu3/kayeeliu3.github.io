@@ -1,12 +1,23 @@
 body {
     font-family: 'Cormorant Garamond', serif;
     font-family: 'Jost', sans-serif;
-    background-color: #0c1023;
-    background-image: url('resources/spacebutactual.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
   }
+
+.homebackground {
+  background-color: #0c1023;
+  background-image: url('resources/spacebutactual.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.aboutbackground {
+  background-color: #0c1023;
+  background-image: url('resources/blue_space_wow_real.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
   /* scanline CRT flicker effect -> modified from https://aleclownes.com/2017/02/01/crt-display.html */
 @keyframes flicker {
