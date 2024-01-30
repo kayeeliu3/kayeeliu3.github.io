@@ -25,25 +25,24 @@
   </head>
   <body id="bodycrt" class="crt aboutbackground">
     <!-- barba.js wrappers https://barba.js.org/docs/getstarted/basic-transition/ -->
-    <div data-barba="wrapper">
-      <div data-barba="container" data-barba-namespace="page-a">
-        <!-- body begin! -->
-        <div class="position-absolute top-50 start-50 translate-middle">
-          <span class="badge text-bg-dark text-center text-wrap"
-            ><h5 class="mt-1 ms-1">
-              wow, you reached here!<br />
-              this is intended as an "about me" page. <br />
-              <a href="index.html">home page</a>
-              <button
-                id="crttoggle"
-                type="button"
-                class="btn btn-secondary btn-sm"
-              >
-                toggle scanlines.
-              </button>
-            </h5></span
-          >
-        </div>
+
+    <div data-barba="container">
+      <!-- body begin! -->
+      <div class="position-absolute top-50 start-50 translate-middle">
+        <span class="badge text-bg-dark text-center text-wrap"
+          ><h5 class="mt-1 ms-1">
+            wow, you reached here!<br />
+            this is intended as an "about me" page. <br />
+            <a href="./index.html">home page</a>
+            <button
+              id="crttoggle"
+              type="button"
+              class="btn btn-secondary btn-sm"
+            >
+              toggle scanlines.
+            </button>
+          </h5></span
+        >
       </div>
     </div>
 
@@ -57,27 +56,6 @@
     <script src="https://unpkg.com/@barba/core"></script>
     <!-- jsdelivr -->
     <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
-
-    <!-- page transition -->
-    <script>
-      barba.init({
-        transitions: [
-          {
-            name: "opacity-transition",
-            leave(data) {
-              return gsap.to(data.current.container, {
-                opacity: 0,
-              });
-            },
-            enter(data) {
-              return gsap.from(data.next.container, {
-                opacity: 0,
-              });
-            },
-          },
-        ],
-      });
-    </script>
     <script src="basic.js"></script>
   </body>
 </html>
