@@ -19,6 +19,14 @@ body {
   background-size: cover;
 }
 
+.diarybackground {
+  background-color: #0c1023;
+  background-image: url('resources/green_space.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
   /* scanline CRT flicker effect -> modified from https://aleclownes.com/2017/02/01/crt-display.html */
 @keyframes flicker {
     0% {
