@@ -156,6 +156,7 @@ body {
       text-shadow: 2.6px 0 1px rgba(0,30,255,0.5), -2.620px 0 1px rgba(255,0,80,0.3), 0 0 3px;
     }
   }
+  
   .crt::after {
     content: " ";
     display: block;
@@ -170,6 +171,7 @@ body {
     pointer-events: none;
     animation: flicker 0.15s infinite;
   }
+  
   .crt::before {
     content: " ";
     display: block;
