@@ -5,7 +5,7 @@ body {
 
 .homebackground {
   background-color: #0c1023;
-  background-image: url('resources/spacebutactual.png');
+  background-image: url('../assets/spacebutactual.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -13,7 +13,7 @@ body {
 
 .aboutbackground {
   background-color: #0c1023;
-  background-image: url('resources/blue_space_wow_real.png');
+  background-image: url('../assets/blue_space.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -21,7 +21,7 @@ body {
 
 .diarybackground {
   background-color: #0c1023;
-  background-image: url('resources/green_space.png');
+  background-image: url('../assets/green_space.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
