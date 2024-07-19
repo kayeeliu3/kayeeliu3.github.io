@@ -1,7 +1,39 @@
+#bob:hover {
+  content: url('../assets/bob_hover_optimized.png');
+}
+
+html {
+  cursor: url('../assets/cursorbob_no_hover_optimized.png'), auto;
+}
+
 body {
     font-family: 'Cormorant Garamond', serif;
     font-family: 'Jost', sans-serif;
-  }
+}
+
+a, .btn:hover {
+  cursor: url('../assets/cursorbob_hover_optimized.png'), auto;
+}
+
+.scrollbar {
+  scrollbar-color: #0a4c95 #c2d2e4; /* Track color and thumb color */
+}
+
+.aboutcard {
+  width:180px;
+}
+
+.setwidth {
+  width:700px;
+}
+
+.customcard {
+  width:400px;
+}
+
+.maincol {
+  height:500px;
+}
 
 .homebackground {
   background-color: #0c1023;

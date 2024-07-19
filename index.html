@@ -9,10 +9,6 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,15 +22,16 @@
   <body id="bodycrt" class="crt homebackground">
     <div class="container-fluid">
       <div class="position-absolute top-50 start-50 translate-middle">
-        <span class="badge text-bg-dark text-center text-wrap"
-          ><h5 class="mt-1 ms-1">
+        <span class="badge text-bg-dark text-center text-wrap">
+          <h6 class="mt-1 ms-1">
             hello there!<br /><br />
-            note that this is best viewed on a laptop or PC.<br /><br /><a
-              href="./pages/about.html"
-              >about</a
-            ><br />
-            <a href="./pages/art.html">art assets</a><br />
-            <a href="./diary_entries/diary.html">diary</a><br /><br />
+            note that this is best viewed on a laptop or PC.<br />
+            it looks terrible on a mobile. probably doesn't even work.<br /><br />
+
+            with that said, click on my friend Bob below to continue.<br /><br />
+            <a href="./pages/main.html">
+              <img src="./static/assets/bob_no_hover_optimized.png" class="hoverelement" id="bob"/>
+            </a><br /><br />
             <button
               id="crttoggle"
               type="button"
@@ -42,7 +39,7 @@
             >
               toggle scanline
             </button>
-          </h5>
+          </h6>
         </span>
       </div>
     </div>
