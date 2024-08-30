@@ -1,0 +1,13 @@
+title: lunar vessel
+description: "hello!"
+url: "https://kae.icu/"
+
+# Build settings
+plugins:
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: "" 
+    values:
+      layout: "page"

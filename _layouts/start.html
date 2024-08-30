@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body id="bodycrt" class="crt homebackground">
+    <div class="container-fluid">
+      <div class="position-absolute top-50 start-50 translate-middle">
+        <span class="badge text-bg-dark text-center text-wrap">
+          <h6 class="mt-1 ms-1">
+            {{ content }}
+            <a href="/main/">
+              <img
+                src="../assets/misc/bob_no_hover_optimized.png"
+                class="hoverelement"
+                id="bob"
+              /> </a
+            ><br /><br />
+            <button
+              id="crttoggle"
+              type="button"
+              class="btn btn-secondary btn-sm mb-3"
+            >
+              toggle scanline
+            </button>
+          </h6>
+        </span>
+      </div>
+    </div>
+
+    <!-- body end! -->
+    {% include scripts.html %}
+  </body>
+</html>

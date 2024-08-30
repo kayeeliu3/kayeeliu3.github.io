@@ -1,0 +1,228 @@
+#bob:hover {
+  content: url('../misc/bob_hover_optimized.png');
+}
+
+html {
+  cursor: url('../misc/cursorbob_no_hover_optimized.png'), auto;
+}
+
+body {
+  font-family: 'Mulish' !important;
+}
+
+a, .btn:hover {
+  cursor: url('../misc/cursorbob_hover_optimized.png'), auto;
+}
+
+.scrollbar {
+  scrollbar-color: #0a4c95 #c2d2e4; /* Track color and thumb color */
+}
+
+.aboutcard {
+  width:150px;
+}
+
+.setwidth {
+  max-width:700px !important;
+}
+
+.customcard {
+  width:400px;
+}
+
+.maincol {
+  height:500px;
+}
+
+.raleway-normal {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.homebackground {
+  background-color: #0c1023;
+  background-image: url('../misc/spacebutactual.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.yapbackground {
+  background-color: #0c1023;
+  background-image: url('../misc/blue_space.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.diarybackground {
+  background-color: #0c1023;
+  background-image: url('../misc/green_space.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+  /* scanline CRT flicker effect -> modified from https://aleclownes.com/2017/02/01/crt-display.html */
+@keyframes flicker {
+    0% {
+      opacity: 0.2;
+    }
+    10% {
+      opacity: 0.5;
+    }
+    15% {
+      opacity: 0.9;
+    }
+    20% {
+      opacity: 0.2;
+    }
+    25% {
+      opacity: 0.8;
+    }
+    30% {
+      opacity: 0.5;
+    }
+    35% {
+      opacity: 0.4;
+    }
+    40% {
+      opacity: 0.3;
+    }
+    45% {
+      opacity: 0.8;
+    }
+    50% {
+      opacity: 0.95;
+    }
+    55% {
+      opacity: 0.05;
+    }
+    60% {
+      opacity: 0.3;
+    }
+    65% {
+      opacity: 0.7;
+    }
+    70% {
+      opacity: 0.4;
+    }
+    75% {
+      opacity: 0.2;
+    }
+    80% {
+      opacity: 0.8;
+    }
+    85% {
+      opacity: 0.5;
+    }
+    90% {
+      opacity: 0.9;
+    }
+    95% {
+      opacity: 0.3;
+    }
+    100% {
+      opacity: 0.2;
+    }
+  }
+
+@keyframes textShadow {
+    0% {
+      text-shadow: 0.6px 0 1px rgba(0,30,255,0.5), -0.43px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    5% {
+      text-shadow: 2.9px 0 1px rgba(0,30,255,0.5), -2.79px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    10% {
+      text-shadow: 0.2px 0 1px rgba(0,30,255,0.5), -0.02px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    15% {
+      text-shadow: 0.4px 0 1px rgba(0,30,255,0.5), -0.40px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    20% {
+      text-shadow: 3.7px 0 1px rgba(0,30,255,0.5), -3.47px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    25% {
+      text-shadow: 1.7px 0 1px rgba(0,30,255,0.5), -1.61px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    30% {
+      text-shadow: 0.8px 0 1px rgba(0,30,255,0.5), -0.70px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    35% {
+      text-shadow: 3.8px 0 1px rgba(0,30,255,0.5), -3.8px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    40% {
+      text-shadow: 3.7px 0 1px rgba(0,30,255,0.5), -3.8px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    45% {
+      text-shadow: 2.2px 0 1px rgba(0,30,255,0.5), -2.23px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    50% {
+      text-shadow: 0.1px 0 1px rgba(0,30,255,0.5), -0.08px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    55% {
+      text-shadow: 2.3px 0 1px rgba(0,30,255,0.5), -2.37px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    60% {
+      text-shadow: 2.1px 0 1px rgba(0,30,255,0.5), -2.20px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    65% {
+      text-shadow: 2.8px 0 1px rgba(0,30,255,0.5), -2.86px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    70% {
+      text-shadow: 0.5px 0 1px rgba(0,30,255,0.5), -0.48px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    75% {
+      text-shadow: 1.9px 0 1px rgba(0,30,255,0.5), -1.89px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    80% {
+      text-shadow: 0.1px 0 1px rgba(0,30,255,0.5), -0.08px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    85% {
+      text-shadow: 0.2px 0 1px rgba(0,30,255,0.5), -0.097px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    90% {
+      text-shadow: 3.5px 0 1px rgba(0,30,255,0.5), -3.44px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    95% {
+      text-shadow: 2.1px 0 1px rgba(0,30,255,0.5), -2.186px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+    100% {
+      text-shadow: 2.6px 0 1px rgba(0,30,255,0.5), -2.620px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    }
+  }
+  
+  .crt::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(18, 16, 16, 0.1);
+    opacity: 0;
+    z-index: 2;
+    pointer-events: none;
+    animation: flicker 0.15s infinite;
+  }
+  
+  .crt::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    z-index: 2;
+    background-size: 100% 2px, 3px 100%;
+    pointer-events: none;
+  }
+  .crt {
+    animation: textShadow 1.6s infinite;
+  }
