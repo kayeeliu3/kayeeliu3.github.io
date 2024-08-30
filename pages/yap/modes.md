@@ -62,7 +62,7 @@ Taking this, and raising the second degree (in this case, Db to D) will make it 
 
 ___
 
-Enough faffing about - let's make it more interesting. Let's take our Aeolian, then deviate from that a little, before settling back into Aeolian and then end with a major chord instead of a minor triad (a Tierce de Picardie!). A simple harmony part has also been added, which greatly aids in backing up the melodic, as well as a tool to help deviate from the current mode and key.
+Enough faffing about - let's make it more interesting. Let's take our Aeolian, then deviate from that a little, before settling back into Aeolian and then end with a major chord instead of a minor triad (a Tierce de Picardie!). A simple harmony part has also been added, which greatly aids in backing up the melody, as well as being used as a tool to help deviate from the current mode and key.
 
 ![Final Melody](/assets/misc/yap_modes/first_half.png "Final melody"){: width="400" }
 ![Final Melody 2](/assets/misc/yap_modes/second_half.png "Final melody 2"){: width="400" }
