@@ -15,7 +15,7 @@ permalink: /about/
         >
         <br />
         <a
-          href="https://docs.google.com/spreadsheets1rdDaV7TpO--trc7JqBAlZS7sBNnG6DkNvXBd4LCiYYc/edit?usp=sharing"
+          href="https://docs.google.com/spreadsheets/d/1rdDaV7TpO--trc7JqBAlZS7sBNnG6DkNvXBd4LCiYYc/edit?usp=sharing"
           >2024 reading list</a
         >
     </p>
