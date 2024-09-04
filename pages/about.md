@@ -5,8 +5,7 @@ permalink: /about/
 <div class="text">
     <p class="mt-1 ms-1 mb-3">
         an average 21 year old huddled in one corner of the planet.
-        but you can check out some of the things this human has
-        done:<br /><br />
+        feel free to take a look at some of her stuff:<br /><br />
         <a href="https://www.youtube.com/@kae6555"
           >YouTube, primarily music</a
         ><br />
