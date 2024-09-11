@@ -20,26 +20,15 @@ permalink: /main/
 </div>
 <div class="audio">
     <h6 class="mb-2">
-        current song obsession:<br />Good Night, Good Dream (좋은 밤
-        좋은 꿈)<br />
-        (by 'Nerd Connection')<br />
+        Current song obsession:<br />Poznan<br />
+        (by 'Low Roar')<br />
     </h6>
     <audio controls class="mb-2">
         <source
-        src="../assets/misc/audio/Good Night, Good Dream - Nerd Connection.mp3"
+        src="../assets/misc/audio/Low Roar - Poznan.mp3"
         type="audio/mpeg"
         />
     </audio>
-    <p class="text mb-4 px-4">
-        i once made a cover of this song a long time ago, and it's a
-        brilliant song to just belt out every and any emotion that
-        dwells within. the feeling of missing someone, the feeling of
-        happiness for someone, the feelings that often can't be
-        explained.<br/>
-        if you can, please watch the original
-        <a href="https://www.youtube.com/watch?v=XfzE8ku3TCI">here</a
-        >.
-    </p>
 </div>
 <div class="px-4 chatbox mt-2">
     little chatbox below. feel free to leave a message.
