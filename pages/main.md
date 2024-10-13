@@ -5,7 +5,7 @@ permalink: /main/
 
 <div class="text mb-1">
     <h6 class="mt-1 px-3">
-        status 30/08/2024: reorganisation
+        status 13/10/2024: new entry
     </h6>
 </div>
 <div class="card bg-primary-subtle mb-2 mx-auto customcard d-flex justify-content-center">
@@ -20,12 +20,12 @@ permalink: /main/
 </div>
 <div class="audio">
     <h6 class="mb-2">
-        Current song obsession:<br />Poznan<br />
-        (by 'Low Roar')<br />
+        Current song obsession:<br />Fionnghuala <br />
+        (performed by The Bothy Band, circa 1977)<br />
     </h6>
     <audio controls class="mb-2">
         <source
-        src="../assets/misc/audio/Low Roar - Poznan.mp3"
+        src="../assets/misc/audio/Fionnghuala - The Bothy Band circa 1977.mp3"
         type="audio/mpeg"
         />
     </audio>
