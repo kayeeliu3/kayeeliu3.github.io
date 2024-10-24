@@ -25,3 +25,5 @@ function startup() {
 
 startup();
 
+const preloadedImage = new Image();
+preloadedImage.src = '../assets/misc/bob_hover_optimized.png'; 
