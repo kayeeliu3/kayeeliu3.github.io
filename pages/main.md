@@ -20,12 +20,12 @@ permalink: /main/
 </div>
 <div class="audio">
     <h6 class="mb-2">
-        Current song obsession:<br />Fionnghuala <br />
-        (performed by The Bothy Band, circa 1977)<br />
+        Current song obsession:<br />The Boxer <br />
+        (Simon and Garfunkel)<br />
     </h6>
     <audio controls class="mb-2">
         <source
-        src="../assets/misc/audio/Fionnghuala - The Bothy Band circa 1977.mp3"
+        src="../assets/misc/audio//Simon & Garfunkel - The Boxer.mp3"
         type="audio/mpeg"
         />
     </audio>
